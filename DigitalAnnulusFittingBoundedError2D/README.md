@@ -11,7 +11,6 @@ This project implements the fitting algorithm in the paper of Phan et al:
 ["Efficient Robust Digital Annulus Fitting with Bounded Error"](http://link.springer.com/chapter/10.1007%2F978-3-642-37067-0_22).
 The goal is to approximate the parameters of a digital annulus from a set of points. The algorithm allows to control the running time w.r.t the estimated error. 
 It means that the faster the fitting is, the higher the estimated error is.
-Please read the paper for more detail.
  
 ## How to compile
 
