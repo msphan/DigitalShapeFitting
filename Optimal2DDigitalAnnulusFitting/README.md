@@ -14,7 +14,7 @@ The goal is to estimate the optimal parameters of a digital annulus from a set o
 
 - The complexity is *N^(n+1)logN*, where *N* is the number of points (inliers+outliers)
   and *n* is the dimension of point.
-- The code works well but the runtime need to be improved.
+- The code works well but the runtime need to be improved for large number of points.
 
 ## How to use test.py
 
