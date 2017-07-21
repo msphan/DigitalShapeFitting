@@ -12,12 +12,11 @@ The project is an implement of the fitting algorithm from the paper of Rita Zrou
 The goal is to estimate the optimal parameters of a digital annulus from a set of points.
 Please read the paper for more detail.
 
-**Language**: Python with Numpy, Sympy.
+## Remark
 
-## File structure
-
-+ fitting.py : fitting module
-+ test.py : test script
+- The complexity is *N^(n+1)logN*, where *N* is the number of points (inliers+outliers)
+  and *n* is the dimension of point.
+- The code works well but the runtime need to be improved.
 
 ## How to use test.py
 
@@ -25,9 +24,3 @@ Before running test.py, user need to specify some parameters:
 
 - set the digital annulus parameters: center, radius, width
 - set number of inliers and outliers
-
-## Remark
-
-- The complexity is *N^(n+1)logN*, where *N* is the number of points (inliers+outliers)
-  and *n* is the dimension of point.
-- The code works well but the runtime need to be improved.
