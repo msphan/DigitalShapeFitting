@@ -1,7 +1,5 @@
 # Optimal 2D Digital Annulus Fitting
 
-**Author**: Minh-Son Phan
-
 <img src="src/fif_30inliers_10outliers.png" width="400" height="400" align="right" />
 
 ## Introduction
